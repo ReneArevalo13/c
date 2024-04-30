@@ -1,0 +1,10 @@
+# ninja log v5
+177	275	1714422994851451089	week4	57ae63460c4d68af
+2	184	1714423434320241907	CMakeFiles/week4.dir/read_seal_data.c.o	af4fd9eed537fabd
+0	176	1714422994754177534	CMakeFiles/week4.dir/main.c.o	5f868280a2935f28
+2	49	1714429761668295141	build.ninja	bb7a3102bcc76ecc
+0	161	1714429761831201444	CMakeFiles/week4.dir/avg_weight.c.o	4057dca5e8f94ca9
+0	162	1714429761834173554	CMakeFiles/week4.dir/read_seal_data.c.o	af4fd9eed537fabd
+0	163	1714429761833893430	CMakeFiles/week4.dir/checkassignment4.c.o	b3390d93db69ae1
+0	50	1714429766125087041	CMakeFiles/week4.dir/main.c.o	5f868280a2935f28
+1	184	1714454196737676641	CMakeFiles/week4.dir/main.c.o	5f868280a2935f28
