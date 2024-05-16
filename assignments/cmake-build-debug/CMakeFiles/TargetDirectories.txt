@@ -1,0 +1,3 @@
+/Users/renearevalo/Programming/c/week3p2/cmake-build-debug/CMakeFiles/week3p2.dir
+/Users/renearevalo/Programming/c/week3p2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/renearevalo/Programming/c/week3p2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
