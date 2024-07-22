@@ -177,16 +177,27 @@ int __TreeMap_get(struct TreeMap* self, char *key, int def)
     if ( self == NULL || key == NULL || self->__root == NULL ) return def;
 
     cur = self->__root;
+    int retval;
 
     /* TODO: scan down the tree and if the key is found, return the value.
      * If the key is not found, return the default value (def).
      */
-
-    cmp = strcmp(key, cur->key);
-    if (cmp == 0) return cur->value;
-    if (cmp < 0) return __TreeMap_get(self->__root->__left, key, def);
-    if (cmp > 0) return __TreeMap_get(self->__root->__right, key, def);
-
+    while (cur != NULL) {
+        cmp = strcmp(key, cur->key);
+        if (cmp == 0) {
+            // match found
+            retval=cur->value;
+            return retval;
+        }
+        if (cmp < 0) {
+            // going down left branch
+            cur = cur->__left;
+        } 
+        else {
+            // going down right branch
+            cur = cur->__right;
+        }
+    }
     return def;
 }
 
